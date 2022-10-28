@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/fonts.css">
+    <link rel="stylesheet" href="CSS/media.css">
     
     <title>Document</title>
 </head>
@@ -14,29 +15,36 @@
         <div class="main-nav-bar">
             
             <nav class="nav-bar">
-               <div class="nav-bar-1">
-                    <!--Logo picture-->
-                    <div class="nav-logo">
-                        <a href="#">
-                            <img src="/resources/images/AdobeLogo.png" alt="logo">
-                        </a>
-                    </div>
+                <div>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <img src="/resources/icons/download.svg" alt="">
+                    </label>
+                    <div class="nav-bar-1">
+                            <!--Logo picture-->
+                            <div class="nav-logo">
+                                <a href="#">
+                                    <img src="/resources/images/AdobeLogo.png" alt="logo">
+                                </a>
+                            </div>
 
-                        <!--nav bar items-->
-                    <div class="nav-bar-items">
-                        <ul>
-                            <a href="">
-                                <li>Creativity & Design</li>
-                            </a><a href="">
-                                <li>PDF & E-signatures</li>
-                            </a><a href="">
-                                <li>Marketing & Commerce</li>
-                            </a><a href="">
-                                <li>help & Support</li>
-                            </a>
-                        </ul>
+                            <!--nav bar items-->
+                            <div class="nav-bar-items">
+                                <ul>
+                                    <a href="">
+                                        <li>Creativity & Design</li>
+                                    </a><a href="">
+                                        <li>PDF & E-signatures</li>
+                                    </a><a href="">
+                                        <li>Marketing & Commerce</li>
+                                    </a><a href="">
+                                        <li>help & Support</li>
+                                    </a>
+                                </ul>
+                            </div>
                     </div>
-               </div>
+                </div>
+                
                
 
                
@@ -75,7 +83,10 @@
                         <a href="">Explore Creative Cloud</a>
 
                     </div>
-                    <img src="/resources/images/Adobe-creative-desktop-header.png" alt="">
+                    <div class="header-nav-image">
+                        <img src="/resources/images/Adobe-creative-desktop-header.png" alt="">
+                    </div>
+                    
                    
                 </section>
 
@@ -83,18 +94,13 @@
 
             <div class="second-header-section">
                 <section class="second-header-container">
-                    
+                    <div class="second-list-bigger">Creative Cloud for:</div> 
                     <ul class="second-list">
-                        <li class="second-list-bigger">Creative Cloud for:</li>
-                        <a href="">
-                            <li>Individuals</li>
-                        </a>
-                        <a href="">
-                            <li>Students & Teachers</li>
-                        </a>
-                        <a href="">
-                            <li>Business</li>
-                        </a>
+
+                        <li><a href="">Individuals</a></li>              
+                        <li><a href="">Students & Teachers</a></li>
+                        <li><a href="">Business</a></li>
+            
                     </ul>
                 </section>
             </div>
@@ -103,14 +109,17 @@
         </div>
         
     </header>
-<!--End of header-->
+    <!-------------------------------------------------------End of header------------------------------------------------------------------------->
 <hr>
+
+
+    <!-------------------------------------------------------Start of main container-------------------------------------------------------------->
 
 <div class="separate" style="width: 200px;"></div>
 
     <main>
         <div class="container first-container">
-            <div class="sub-container number-1">
+            <div class="card first-card">
                 <h2>Everyone can. Photoshop</h2>
                 <p>Blur Layer, Colorize. Swap. Combine. Blend.
                     With Photoshop, Everyonecan 
@@ -118,15 +127,17 @@
                 <a href="">Get to know Photoshop</a>
             </div>
 
-            <div class="sub-container number-1">
+            <div class="card first-card">
                 <h2>Adobe Express</h2>
                 <p>Quickly and easily make standout content. 
                     No credit card required
                 </p>
                 <a href="">Get Adobe Express free</a>
             </div>
-            <!--Sub Container with a list inside-->
-            <div class="sub-container number-1">
+
+                       <!------------------------------Sub Container with a list inside------------------------->
+
+            <div class="card first-card">
                 <h2>Explore our creative apps</h2>
                 <hr color="black" size = "1" noshade>
                 <ul>
@@ -146,8 +157,10 @@
                     <li><a href="">Social media</a></li>
                 </ul>
             </div>
-            <!--Container with girl inside water-->
-            <div class="sub-container number-1">
+
+            <!-----------------------------------Container with girl inside water--------------------------------->
+
+            <div class="card first-card">
                 <h2>Video editing. The easy way.</h2>
                 <p>Take your content further and stand out with the next-level 
                     power of Premiere Pro.
@@ -155,8 +168,9 @@
                 <a href="">Learn more</a>
             </div>
 
-            <!--Side container to girl in water-->
-            <div class="sub-container number-1">
+            <!----------------------------------Side container to girl in water----------------------------------->
+
+            <div class="card first-card">
                 <h2>Get it done with Acrobat.</h2>
                 <p>Edit, share, and e-sign all of your PDFs -- all 
                     in one place
@@ -165,7 +179,7 @@
             </div>
         </div>
 
-        <!--First full image-->
+        <!-------------------------------------------------First full image---------------------------------------->
 
         <div class="main-first-full-image">
             <div class="text">
@@ -186,7 +200,7 @@
 
         <div class="container second-container">
 
-            <div class="sub-container number-A">
+            <div class="card second-card">
                 <h2>ACROBAT READER MOBILE APP</h2>
                 <h2>Work now works wherever.</h2>
 
@@ -197,7 +211,7 @@
                 <a href="">Learn more</a>
             </div>
 
-            <div class="sub-container number-A list-style">
+            <div class="card second-card list-style">
                 <h2>ADOBE DOCUMENT CLOUD FOR BUSINESS</h2>
                 <h2>PDFs keep work flowing</h2>
 
@@ -207,7 +221,7 @@
             </div>
 
 
-            <div class="sub-container number-A list-style">
+            <div class="card second-card list-style">
                 <h2>Explore Acrobat</h2>
                 <hr color="white" size = "1" noshade>
                 <ul>
@@ -230,7 +244,7 @@
 
         </div>
 
-        <!--Second image, girl with headphones-->
+        <!--------------------------------------------------------------Second image, girl with headphones----------------------------------------------------->
 
         <div class="main-second-full-image">
            <div class="sub-container-second-image">
@@ -241,11 +255,17 @@
 
                 <a href="" class="button-blue">Learn more</a>
             </div>
-            <img src="/resources/images/headphone-table.jpeg" alt="">
         </div>
 
+                      <!------------------------------------------------End of Secong Image, girl with headphones------------------------------->
+
+
+
+
+        <!--------------------------------------------------------------Third Sub-container-------------------------------------------------------------------->
+
         <div class="container third-container">
-            <div class="sub-container number-I">
+            <div class="card third-card">
                 <h2>ADOBE EXPERIENCE CLOUD</h2>
                 <h2>Adobe for business</h2>
                 <p>Deliver personalize, targeted digital experience 
@@ -253,7 +273,7 @@
                 </p>
                 <a href="">Learn more</a>
             </div>
-            <div class="sub-container number-I">
+            <div class="card third-card">
             
                 <h2>DATA AND AUDIENCES</h2>
                 <h2>Drive real-time personalization.</h2>
@@ -265,7 +285,7 @@
                 <a href="">Learn more</a>
             
             </div>
-            <div class="sub-container number-I list-style">
+            <div class="card third-card list-style">
                 <h2>Explore business solutions</h2>
                 <hr color="white" size="1" noshade>
                 <ul>
@@ -287,69 +307,99 @@
         </div>
 
     </main>
+                            <!---------------------------------End of Main Section--------------------------------------->
+
+
+        <!-----------------------------------------------------Beginning of Footer------------------------------------------------------------------->
+
 
     <footer>
 
-        <!--First Section footer 1/3-->
+        <!-----------First Section footer 1/3------------>
+
         <section class="navigation">
-            <!--First footer column-->
-            <div class="footer-nav1 nav-align">
-                <ul>
-                    <li class="adjust">Shop</li>
-                    <li><a href="">Creative Cloud</a></li>
-                    <li><a href="">Photoshop</a></li>
-                    <li><a href="">Adobe Express</a></li>
-                    <li><a href="">Photography</a></li>
-                    <li><a href="">Premiere Pro</a></li>
-                    <li><a href="">Adobe Stock</a></li>
-                    <li><a href="">Elements Family</a></li>
-                </ul>
 
-                <ul class="footer-sub-item">
-                    <li><a href="">Document Cloud</a></li>
-                    <li><a href="">Acrobat</a></li>
-                    <li><a href="">Acroabt Sign</a></li>
-                </ul>
+                <!-------------First footer column---------->
 
-                <ul class="footer-sub-item">
-                    <li><a href="">Special offers</a></li>
-                    <li><a href="">View plans and pricing</a></li>
-                    <li><a href="">View all products</a></li>
-                </ul>
+            <div class="nav-align">
+                <input type="checkbox" name="footer-nav" id="footer-nav1" class="footer_input">
+                <label for="footer-nav1" class="drop-label adjust">Shop</label>
+                <div class="drop-content">
+                    <ul>
+                    
+                        <li><a href="">Creative Cloud</a></li>
+                        <li><a href="">Photoshop</a></li>
+                        <li><a href="">Adobe Express</a></li>
+                        <li><a href="">Photography</a></li>
+                        <li><a href="">Premiere Pro</a></li>
+                        <li><a href="">Adobe Stock</a></li>
+                        <li><a href="">Elements Family</a></li>
+                    </ul>
+
+                    <ul class="footer-sub-item">
+                        <li><a href="">Document Cloud</a></li>
+                        <li><a href="">Acrobat</a></li>
+                        <li><a href="">Acroabt Sign</a></li>
+                    </ul>
+
+                    <ul class="footer-sub-item">
+                        <li><a href="">Special offers</a></li>
+                        <li><a href="">View plans and pricing</a></li>
+                        <li><a href="">View all products</a></li>
+                    </ul>
+                </div>
+                
             </div>
 
-            <!--Second Footer column-->
-            <div class="footer-nav2 nav-align">
+            <!-----------Second Footer column------------>
+
+            <div class="nav-align">
+
                 <div class="footer-nav2-item">
-                    <ul>
-                        <li class="adjust">For Business</li>
+
+                    <input type="checkbox" name="footer-nav" id="footer-nav2" class="footer_input">
+                    <label for="footer-nav2" class="drop-label adjust">For Business</label>
+                    <ul class="drop-content">
                         <li><a href="">Creative Cloud for teams</a></li>
                         <li><a href="">Creative Cloud for enterprise</a> </li>
                         <li><a href="">Document Cloud for business</a></li>
                     </ul>
+
                 </div>
+
                 <div class="footer-sub-item">
-                    <ul>
-                        <li class="adjust">For education</li>
+
+                    <input type="checkbox" name="footer-nav" id="footer-nav3" class="footer_input">
+                    <label for="footer-nav3" class="drop-label adjust">For education</label>
+                    <ul class="drop-content">
                         <li><a href="">Discounts for students and teachers</a></li>
                         <li><a href="">Schools and universities</a></li>
                         <li><a href="">Digital Learning Solutions</a></li>
                     </ul>
+
                 </div>
+
                 <div class="footer-sub-item">
-                    <ul>
-                        <li class="adjust">For mobile</li>
+
+                    <input type="checkbox" name="footer-nav" id="footer-nav4" class="footer_input">
+                    <label for="footer-nav4" class="drop-label adjust">For mobile</label>
+                    <ul class="drop-content">
                         <li><a href="">Apps for iOS</a></li>
                         <li><a href="">Apps for Android</a></li>
                     </ul>
+
                 </div>
+
             </div>
 
-            <!--third footer column-->
+            <!-------------third footer column--------------->
 
-            <div class="footer-nav3 nav-align">
-                <ul >
-                    <li class="adjust">Experience Cloud</li>
+            <div class="nav-align">
+
+                <input type="checkbox" name="footer-nav" id="footer-nav5" class="footer_input">
+                <label for="footer-nav5" class="drop-label adjust">Experience Cloud</label>
+
+                <ul class="drop-content">
                     <li><a href="">What is Experience Cloud</a></li>
                     <li><a href="">Analytics</a></li>
                     <li><a href="">Experience Manager</a></li>
@@ -358,41 +408,61 @@
                     <li><a href="">Workfront</a></li>
                     <li><a href="">Terms of Use</a></li>
                 </ul>
+
             </div>
 
-            <!--four footer column-->
-            <div class="footer-nav4">
+            <!-----------four footer column--------------->
+
+            <div class="">
+
                 <div class="footer-nav-item">
-                    <ul>
-                        <li class="adjust">Support</li>
+
+                    <input type="checkbox" name="footer-nav" id="footer-nav6" class="footer_input">
+                    <label for="footer-nav6" class="drop-label adjust">Support</label>
+
+                    <ul class="drop-content">
                         <li><a href="">Download and install</a></li>
                         <li><a href="">Help Center</a></li>
                         <li><a href="">Adobe Support Community</a></li>
                         <li><a href="">enterprise Support</a></li>
                         <li><a href="">Genuine Software</a></li>
                     </ul>
+
                 </div>
 
                 <div class="footer-sub-item">
-                    <ul>
-                        <li class="adjust">Resources</li>
+
+                   <input type="checkbox" name="footer-nav" id="footer-nav7" class="footer_input">
+                   <label for="footer-nav7" class="drop-label adjust">Resources</label>
+
+                    <ul class="drop-content">
                         <li><a href="">Adobe Blog</a></li>
                         <li><a href="">Adobe Developer</a></li>
                     </ul>
 
                 </div>
+
                 <div class="footer-sub-item">
-                    <ul>
-                        <li class="adjust">Adobe Account</li>
+
+                    <input type="checkbox" name="footer-nav" id="footer-nav8" class="footer_input">
+                    <label for="footer-nav8" class="drop-label adjust">Adobe Account</label>
+
+                    <ul class="drop-content">
                         <li><a href="">Log in to your account</a></li>     
                     </ul>
+
                 </div>
+
             </div>
 
-            <!--five footer column-->
-            <div class="footer-nav5">
-                <ul>
-                    <li class="adjust">Adobe</li>
+            <!-------------five footer column------------->
+
+            <div class="drop-down">
+
+                <input type="checkbox" name="footer-nav" id="footer-nav9" class="footer_input">
+                <label for="footer-nav9" class="drop-label adjust">Adobe</label>
+
+                <ul class="drop-content">
                     <li><a href="">About</a></li>
                     <li><a href="">Careers</a></li>
                     <li><a href="">Newsroom</a></li>
@@ -404,15 +474,19 @@
                     <li><a href="">Diversity and inclusion</a></li>
                     <li><a href="">Integrity</a></li>
                 </ul>
+
             </div>
 
         </section>
 
-        <!--Second section of footer 2/3-->
+        <!------------------------------Second section of footer 2/3----------------------------->
+
         <section class="main-products">
             <hr>
             <div >
+
                 <ul class="products">
+
                     <li class="adjust">Featured Products</li>
                     <li class="icon ">
                         <a href="" class="product-align">
@@ -437,10 +511,13 @@
                     </li>
 
                     <li class="icon">
+
                         <a href="" class="product-align">
+
                             <div class="icon-item">
                                 <img src="/resources/icons/Adobe_Photoshop_Icon.svg" alt="">
                             </div>
+
                             <div class="icon-item edit">
                                Photoshop
                             </div>                
@@ -448,53 +525,73 @@
                     </li>
 
                     <li class="icon">
+
                         <a href="" class="product-align">
+
                         <div class="icon-item">
                             <img src="/resources/icons/Adobe_illustrator_Icon.svg" alt="">
                         </div>
+
                         <div class="icon-item edit">
                             illustrator
                         </div>
+
                         </a>
                     </li>
+
                 </ul>
             </div>
             <hr>
         </section>
 
-        <!--Third section footer 3/3-->
+        <!--------------------------Third section footer 3/3-------------------------------->
+
         <section class="social-media-and-copyright">
+
             <div class="social-media-and-copyright-major"> 
                 
                 <div class="social-media">
+
                     <div class="social-1 icon edit">
                         <a href="" class="product-align">
+
                             <div >
                                 <img src="/resources/icons/download.svg" alt="">
                             </div>
+
                             <div>
                                 Change region
                             </div>
+
                         </a>
                     </div>
 
                     <div class="social-2">
-                         <div>
+
+                         <div class="Center-image">
                             <a href="">
                                 <img src="/resources/icons/social-icon-facebook.svg" alt="">
                             </a>
+
                         </div>
-                        <div>
+
+                        <div class="Center-image">
+
                             <a href="">
                                 <img src="/resources/icons/social-icon-twitter.svg" alt="">
                             </a>
+
                         </div>
-                        <div>
+
+                        <div class="Center-image">
+
                             <a href="">
                                 <img src="/resources/icons/social-icon-linkedin.svg" alt="">
                             </a>
+
                         </div>
-                        <div>
+
+                        <div class="Center-image">
                             <a href="">
                                 <img src="/resources/icons/social-icon-instagram.svg" alt="">
                             </a>
